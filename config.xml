@@ -3,14 +3,14 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
     id        = "io.cordova.helloCordova"
     version   = "2.0.0">
-<name>APP NAME</name>
+<name>LET'S Write</name>
 
 <description>
-    DESCRIPTION
+    Learn and play
 </description>
 
 <author href="YOUR URL" email="YOUR EMAIL">
-    YOUR NAME
+    Arpit Mishra
 </author>
 
 <access origin="*"/>
