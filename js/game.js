@@ -10,7 +10,7 @@
  
 //Game Text
 var playBackgroundMusic = true; //toggle background music
-var bgColour = '#26ADE4'; //background colour
+var bgColour = '#f5989d'; //background colour
 var startButtonText = 'TAP TO PLAY'; //text for start button
 
 var categoryPage = true; //show/hide category select page
@@ -41,7 +41,7 @@ var stringElasticNum = 1.8; //string elasctic number
 var shareOption = true; //toggle share option
 var shareText ='SHARE IT NOW'; //text for share instruction
 var shareTitle = 'Highscore on Connect the Dots is [SCORE]';//social share score title
-var shareMessage = '[SCORE] is mine new highscore on Connect the Dots! Try it now!'; //social share score message
+var shareMessage = '[SCORE] is mine new highscore on GAME NAME! Try it now!'; //social share score message
 
 /*!
  *
