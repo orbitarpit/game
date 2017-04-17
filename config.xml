@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <name>Let's Write</name>
 
-<widget id="com.example.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget name="Let's Write" id="com.example.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://cordova.apache.org/ns/1.0" xmlns:android = "http://schemas.android.com/apk/res/android">
 <!-- versionCode is optional and Android only -->
 
 
@@ -11,4 +11,4 @@
 
   <author href="#" email="arpitmishra.techline@gmail.com">
       Arpit Mishra
-  </author></widget>
+  </author>
