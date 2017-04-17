@@ -26,7 +26,7 @@
   <preference name="InAppBrowserStorageEnabled" value="true" />
   <preference name="disallowOverscroll" value="true" />
 -->
-
+<!--
 <feature name="App">
   <param name="android-package" value="org.apache.cordova.App"/>
 </feature>
@@ -85,7 +85,7 @@
   <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
 </feature>
 <!-- Deprecated plugins element. Remove in 3.0 -->
-<plugins>
+<!-- <plugins>
 <plugin name="WebIntent" value="com.borismus.webintent.WebIntent" />
-</plugins>
+</plugins> -->
 </widget>
