@@ -1,14 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.app.stuff" version="1.3.3">
 <name>Let's Write</name>
-
-<widget name="Let's Write" id="com.example.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://cordova.apache.org/ns/1.0" xmlns:android = "http://schemas.android.com/apk/res/android">
-<!-- versionCode is optional and Android only -->
-
-
-  <description>
-      An example for build .
-  </description>
-
-  <author href="#" email="arpitmishra.techline@gmail.com">
-      Arpit Mishra
-  </author>
+<description>Tool Usage</description>
+<author href="http://domain.com" email="support@domain.com">Development Team</author>
+<content src="index.html"/>
