@@ -1,4 +1,8 @@
- <preference name="permissions" value="none"/>
+<?xml version="1.0"?>
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<preference name="permissions" value="none"/>
     
     <preference name="Let's Write"  /> <!--  value="cli-5.2.0"  andaba bien: 3.7.0 !-->
     <preference name="android-maxSDKVersion" value="" />
