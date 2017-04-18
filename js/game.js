@@ -10,7 +10,7 @@
  
 //Game Text
 var playBackgroundMusic = true; //toggle background music
-var bgColour = '#f5989d'; //background colour
+var bgColour = '#bfbfbf'; //background colour
 var startButtonText = 'TAP TO PLAY'; //text for start button
 
 var categoryPage = true; //show/hide category select page
