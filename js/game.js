@@ -24,8 +24,10 @@ var countdownMode = true; //toggle countdown mode;
 var countdownSingleTimer = true; //toggle countdown timer for single puzzle
 var resultTitleText = 'YOUR BEST TIME'; //text for result page title (normal timer)
 var countdownTitleText = 'TIME\'S UP'; //text for result page title
-var countdownCompleteTitleText = 'CONGRATULATIONS'; //text for result page title
-var countdownScoreText = 'YOU SOLVE [NUMBER] PUZZLES'; //score for result page, [NUMBER] will replace with total solve puzzles
+//var countdownCompleteTitleText = 'CONGRATULATIONS'; //text for result page title
+//var countdownScoreText = 'YOU SOLVE [NUMBER] PUZZLES'; //score for result page, [NUMBER] will replace with total solve puzzles
+var countdownCompleteTitleText = 'VOLLA'; //text for result page title
+var countdownScoreText = 'YOU ARE DOING GOOD'; //score for result page, [NUMBER] will replace with total solve puzzles
 var replayButtonText = 'PLAY AGAIN'; //text for replay button
 var randomSequence = false;
 
