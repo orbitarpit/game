@@ -58,7 +58,7 @@ function buildGameCanvas(){
 	
 	timerTxt = new createjs.Text();
 	timerTxt.font = "50px comfortaabold";
-	timerTxt.color = "#ffffff";
+	timerTxt.color = "#bfbfbf";
 	timerTxt.text = '00:00';
 	timerTxt.textAlign = "right";
 	timerTxt.textBaseline='alphabetic';
@@ -67,7 +67,7 @@ function buildGameCanvas(){
 	
 	countTxt = new createjs.Text();
 	countTxt.font = "50px comfortaabold";
-	countTxt.color = "#ffffff";
+	countTxt.color = "#bfbfbf";
 	countTxt.text = '';
 	countTxt.textAlign = "left";
 	countTxt.textBaseline='alphabetic';
