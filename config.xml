@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<icon src="res/ios/icon.png"  width="57" height="57" />
+
 <platform name="android">
               <icon src="icon.png" density="ldpi" />
               <icon src="icon.png" density="mdpi" />
