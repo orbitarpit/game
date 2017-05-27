@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<icon src="res/ios/icon.png"  width="57" height="57" />
 
-<platform name="android">
-              <icon src="icon.png" density="ldpi" />
-              <icon src="icon.png" density="mdpi" />
-              <icon src="icon.png" density="hdpi" />
-              <icon src="icon.png" density="xhdpi" />
-     </platform>
 
 <widget xmlns     = "http://www.w3.org/ns/widgets"
     id        = "io.cordova.helloCordova"
     version   = "2.0.0">
 <name>LET'S Write</name>
+  <icon src="icon.png" />
 
 <description>
     Learn and play
