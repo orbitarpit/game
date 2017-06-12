@@ -12,6 +12,7 @@
 var playBackgroundMusic = true; //toggle background music
 var bgColour = '#bfbfbf'; //background colour
 var startButtonText = 'TAP TO PLAY'; //text for start button
+var soundonButtonText = 'Sound On/Off'; //text for start button
 
 var categoryPage = true; //show/hide category select page
 var categoryAllOption = true; //add ALL category select option
@@ -31,16 +32,16 @@ var countdownScoreText = ''; //score for result page, [NUMBER] will replace with
 var replayButtonText = 'PLAY AGAIN'; //text for replay button
 var randomSequence = false;
 
-var lineStroke = 10; //string stroke number
-var lineColour = '#dddddd'; //string colour
-var lineCompleteStroke = 15; //string complete stroke number
-var lineCompleteColour = '#ffffff'; //string complete colour
+var lineStroke = 50; //string stroke number
+var lineColour = '#2f3238'; //string colour
+var lineCompleteStroke = 40; //string complete stroke number
+var lineCompleteColour = '#2f3238'; //string complete colour
 var elasticTween = true; //enable/disable string elastic effect
 var elasticTweenMoile = false; //enable/disable string elastic effect for mobile
 var stringElasticNum = 1.8; //string elasctic number
 
 //Social share, [SCORE] will replace with game score
-var shareOption = true; //toggle share option
+var shareOption = false; //toggle share option
 var shareText ='SHARE IT NOW'; //text for share instruction
 var shareTitle = 'Highscore on Connect the Dots is [SCORE]';//social share score title
 var shareMessage = '[SCORE] is mine new highscore on GAME NAME! Try it now!'; //social share score message
@@ -169,6 +170,7 @@ function goPage(page){
 			}, 200);
 			
 			startAnimateButton(categoryTxt);
+
 			displayCategoryName();
 		break;
 		
@@ -383,6 +385,9 @@ function startNextPuzzle(){
 	dotNum++;
 	if(dotNum >= puzzleSelect_arr.length){
 		goPage('result');
+playSound('soundSwipe'+randomPop);
+
+
 	}else{
 		loadPuzzle();
 		createDots();
